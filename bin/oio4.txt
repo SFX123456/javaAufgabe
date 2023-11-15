@@ -1,0 +1,4 @@
+Artikelnummer; Artikelbezeichnung; Preis;
+45879; SSD-Samsung; 69,80 €;
+58763; Game of Thrones Blu-Ray; 39,90 €;
+25873; Playmobil Ritterburg; 123,90 €;

@@ -1,0 +1,4 @@
+Artikelnummer; Artikelbezeichnung; Preis;
+68521; Joker Blu-Ray; 19,90 €;
+25873; Playmobil Ritterburg; 123,90 €;
+58763; Game of Thrones Blu-Ray; 39,90 €;

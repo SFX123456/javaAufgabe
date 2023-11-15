@@ -1,0 +1,2 @@
+Artikelnummer; Artikelbezeichnung; Preis;
+45879; SSD-Samsung; 69,80 €;
