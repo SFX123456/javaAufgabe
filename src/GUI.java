@@ -18,36 +18,44 @@ public class GUI extends JFrame{
 	private JList listLeft;
 	private JList listRight;
 	
-	public JLabel getLblNewLabel() {
+	public JLabel getLblNewLabel() 
+	{
 		return lblNewLabel;
 	}
 
-	public JTextField getTextFieldKundenname() {
+	public JTextField getTextFieldKundenname() 
+	{
 		return textFieldKundenname;
 	}
 
-	public JButton getBtnLeft() {
+	public JButton getBtnLeft() 
+	{
 		return btnNewButton;
 	}
 
-	public JButton getBtnRight() {
+	public JButton getBtnRight() 
+	{
 		return btnNewButton_1;
 	}
 	
-	protected JList getListLeft() {
+	protected JList getListLeft() 
+	{
 		return listLeft;
 	}
 	
-	protected JList getListRight() {
+	protected JList getListRight() 
+	{
 		return listRight;
 	}
 	
-	protected JButton getButonBestellung() {
+	protected JButton getButonBestellung() 
+	{
 		return butonBestellung;
 	}
 
 
-	public GUI() {
+	public GUI() 
+	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 500, 400);
 		contentPane = new JPanel();
