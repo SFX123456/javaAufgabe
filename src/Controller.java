@@ -12,6 +12,7 @@ public class Controller
 	private GUI gui;
 	private DefaultListModel<Artikel> listLeft;
 	private DefaultListModel<Artikel> listRight;
+	//static nicht notwenig. Sollte wahrscheinlich in der Main Klasse als static feld deklariert werden. In der Praxis wahrscheinlich in einer Datenbank um sicher zu gehen das die bestellnummer einmalig ist?
 	private static int bestellNummer = 1;
 	public Controller()
 	{
