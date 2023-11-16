@@ -42,7 +42,8 @@ public class Controller
 		{
 
 			@Override
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) 
+			{
 				var artikelRight = (Artikel) gui.getListRight().getSelectedValue();
 				listLeft.addElement(artikelRight);
 				listRight.removeElement(artikelRight);
@@ -55,7 +56,8 @@ public class Controller
 		{
 
 			@Override
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) 
+			{
 				var artikelLeft = (Artikel) gui.getListLeft().getSelectedValue();
 				listRight.addElement(artikelLeft);
 				listLeft.removeElement(artikelLeft);
@@ -68,7 +70,8 @@ public class Controller
 		{
 
 			@Override
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) 
+			{
 				bestellen();
 				
 			}
